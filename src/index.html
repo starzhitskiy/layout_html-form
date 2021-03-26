@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    <form
+     action="https://mate-academy-form-lesson.herokuapp.com/create-application"
      method="post"
      onsubmit="onSubmit()"
     >
@@ -18,54 +19,54 @@
         <div class="field">
           <label class="label" for="surname">Surname:</label>
           <input
-           required
-           autocomplete="off"
-           type="text"
-           id="surname"
-           name="Surname"
+            required
+            autocomplete="off"
+            type="text"
+            id="surname"
+            name="Surname"
           >
         </div>
         <div class="field">
           <label class="label" for="name">Name:</label>
           <input
-           required
-           autocomplete="off"
-           type="text"
-           id="name"
-           name="name"
+            required
+            autocomplete="off"
+            type="text"
+            id="name"
+            name="name"
           >
         </div>
         <div class="field">
           <label class="label" for="old">How old are You?</label>
           <input
-           required
-           autocomplete="off"
-           type="number"
-           id="old"
-           name="old"
-           value="12"
-           min="6"
-           max="100"
+            required
+            autocomplete="off"
+            type="number"
+            id="old"
+            name="old"
+            value="12"
+            min="6"
+            max="100"
           >
         </div>
         <div class="field">
           <label class="label" for="age">Full date of birth:</label>
           <input
-           required
-           autocomplete="off"
-           type="date"
-           id="age"
-           name="age"
+            required
+            autocomplete="off"
+            type="date"
+            id="age"
+            name="age"
           >
         </div>
         <div class="field">
           <label class="label" for="box">I accept the term of the agreement</label>
           <input
-           required
-           autocomplete="off"
-           type="checkbox"
-           id="box"
-           name="box"
+            required
+            autocomplete="off"
+            type="checkbox"
+            id="box"
+            name="box"
           >
         </div>
       </fieldset>
@@ -75,24 +76,24 @@
         <div class="field">
           <label class="label" for="email">E-mail:</label>
           <input
-           required
-           autocomplete="off"
-           type="email"
-           id="email"
-           name="E-mail"
-           placeholder="email@example.com"
+            required
+            autocomplete="off"
+            type="email"
+            id="email"
+            name="E-mail"
+            placeholder="email@example.com"
           >
         </div>
         <div class="field">
           <label class="label" for="password">Password:</label>
           <input
-           required
-           autocomplete="off"
-           type="password"
-           id="password"
-           name="Password"
-           minlength="3"
-           maxlength="15"
+            required
+            autocomplete="off"
+            type="password"
+            id="password"
+            name="Password"
+            minlength="3"
+            maxlength="15"
           >
         </div>
       </fieldset>
@@ -103,19 +104,19 @@
           <div class="label">
             Do you love cats?
             <input
-             type="radio"
-             name="radio"
-             value="Yes"
-             id="Yes"
+              type="radio"
+              name="radio"
+              value="Yes"
+              id="Yes"
             >
             <label for="Yes">
               Yes
             </label>
             <input
-            type="radio"
-            name="radio"
-            value="No"
-            id="No"
+              type="radio"
+              name="radio"
+              value="No"
+              id="No"
            >
             <label for="No">
             No
@@ -125,33 +126,33 @@
         <div class="field">
           <label class="label" for="color">What is your favorite color?</label>
           <input
-           required
-           autocomplete="off"
-           type="color"
-           id="color"
-           name="Color"
+            required
+            autocomplete="off"
+            type="color"
+            id="color"
+            name="Color"
           >
         </div>
         <div class="field">
           <label class="label" for="time">What time do you go to bed?</label>
           <input
-           required
-           autocomplete="off"
-           type="time"
-           id="time"
-           name="time_to_bed"
+            required
+            autocomplete="off"
+            type="time"
+            id="time"
+            name="time_to_bed"
           >
         </div>
         <div class="field">
           <label class="label" for="select">What are your favorite brand of cars?</label>
           <select
-           required
-           autocomplete="off"
-           class="select"
-           name="Cars"
-           id="select"
-           size="4"
-           multiple
+            required
+            autocomplete="off"
+            class="select"
+            name="Cars"
+            id="select"
+            size="4"
+            multiple
           >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
@@ -161,14 +162,14 @@
         <div class="field">
           <label class="label" for="range">How do you rate our work?</label>
           <input
-           required
-           autocomplete="off"
-           type="range"
-           id="range"
-           name="Work"
-           value="0"
-           min="0"
-           max="10"
+            required
+            autocomplete="off"
+            type="range"
+            id="range"
+            name="Work"
+            value="0"
+            min="0"
+            max="10"
           >
         </div>
       </fieldset>
@@ -182,11 +183,11 @@
         <div class="field">
           <label class="label" for="recommend">Would you recommend us?</label>
           <select
-           required
-           autocomplete="off"
-           class="recommend"
-           name="Recommend"
-           id="recommend"
+            required
+            autocomplete="off"
+            class="recommend"
+            name="Recommend"
+            id="recommend"
           >
             <option value="Yes">yes</option>
             <option value="No">no</option>
@@ -195,7 +196,7 @@
       </fieldset>
     </form>
 
-    <button type="submit">Submit</button>
+    <button type="submit" onsubmit="onSubmit()">Submit</button>
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
