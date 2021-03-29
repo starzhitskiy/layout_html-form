@@ -2,9 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+    >
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
@@ -23,7 +28,7 @@
             autocomplete="off"
             type="text"
             id="surname"
-            name="Surname"
+            name="surname"
           >
         </div>
         <div class="field">
@@ -37,25 +42,25 @@
           >
         </div>
         <div class="field">
-          <label class="label" for="old">How old are You?</label>
+          <label class="label" for="age">How old are You?</label>
           <input
             required
             autocomplete="off"
             type="number"
-            id="old"
-            name="old"
+            id="age"
+            name="age"
             value="12"
             min="6"
             max="100"
           >
         </div>
         <div class="field">
-          <label class="label" for="age">Full date of birth:</label>
+          <label class="label" for="birthDate">Full date of birth:</label>
           <input
             required
             autocomplete="off"
             type="date"
-            id="age"
+            id="birthDate"
             name="age"
           >
         </div>
@@ -80,7 +85,7 @@
             autocomplete="off"
             type="email"
             id="email"
-            name="E-mail"
+            name="e-mail"
             placeholder="email@example.com"
           >
         </div>
@@ -91,7 +96,7 @@
             autocomplete="off"
             type="password"
             id="password"
-            name="Password"
+            name="password"
             minlength="3"
             maxlength="15"
           >
@@ -106,20 +111,20 @@
             <input
               type="radio"
               name="radio"
-              value="Yes"
-              id="Yes"
+              value="yes"
+              id="yes"
             >
-            <label for="Yes">
+            <label for="yes">
               Yes
             </label>
             <input
               type="radio"
               name="radio"
-              value="No"
-              id="No"
+              value="no"
+              id="no"
            >
-            <label for="No">
-            No
+            <label for="no">
+              No
             </label>
           </div>
         </div>
@@ -130,7 +135,7 @@
             autocomplete="off"
             type="color"
             id="color"
-            name="Color"
+            name="color"
           >
         </div>
         <div class="field">
@@ -166,7 +171,7 @@
             autocomplete="off"
             type="range"
             id="range"
-            name="Work"
+            name="work"
             value="0"
             min="0"
             max="10"
@@ -186,17 +191,17 @@
             required
             autocomplete="off"
             class="recommend"
-            name="Recommend"
+            name="recommend"
             id="recommend"
           >
-            <option value="Yes">yes</option>
-            <option value="No">no</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
           </select>
         </div>
       </fieldset>
     </form>
 
-    <button type="submit" onsubmit="onSubmit()">Submit</button>
+    <button type="submit">Submit</button>
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
